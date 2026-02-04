@@ -1,0 +1,3 @@
+[submodule "HyperCasualTemplate/Assets/Submodules/GameFoundationCore"]
+	path = HyperCasualTemplate/Assets/Submodules/GameFoundationCore
+	url = git@github.com:tranvietanh0/GameFoundationCore.git
