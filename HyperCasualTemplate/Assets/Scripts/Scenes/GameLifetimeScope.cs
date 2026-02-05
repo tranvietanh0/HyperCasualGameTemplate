@@ -1,6 +1,8 @@
 ﻿namespace HyperCasualGame.Scripts.Scenes
 {
     using GameFoundationCore.Scripts;
+    using GameFoundationCore.Scripts.DI.VContainer;
+    using UnityEngine;
     using VContainer;
     using VContainer.Unity;
 

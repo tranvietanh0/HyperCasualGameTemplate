@@ -2,8 +2,13 @@
     "name": "HyperCasualGame.Scripts",
     "rootNamespace": "HyperCasualGame.Scripts",
     "references": [
-        "GUID:b0214a6008ed146ff8f122a6a9c2f6cc",
-        "GUID:d1ac37ec02ac4180a7b0bd6d77b84fcb"
+        "VContainer",
+        "GameFoundationCore.Scripts",
+        "GameFoundationCore.DI",
+        "GameFoundationCore.UIModule",
+        "GameFoundationCore.Signals",
+        "UniT.Logging",
+        "UniTask"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
