@@ -1,6 +1,6 @@
 ﻿namespace HyperCasualGame.Scripts.Scenes
 {
-    using UnityEngine;
+    using GameFoundationCore.Scripts;
     using VContainer;
     using VContainer.Unity;
 
@@ -8,7 +8,7 @@
     {
         protected override void Configure(IContainerBuilder builder)
         {
-            base.Configure(builder);
+            builder.RegisterGameFoundation(this.transform);
         }
     }
 }

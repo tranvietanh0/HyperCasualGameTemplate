@@ -1,5 +1,10 @@
 {
   "dependencies": {
+    "com.cysharp.messagepipe": "1.8.1",
+    "com.cysharp.messagepipe.vcontainer": "1.8.1",
+    "com.cysharp.unitask": "2.5.10",
+    "com.github-glitchenzo.nugetforunity": "https://github.com/GlitchEnzo/NuGetForUnity.git?path=/src/NuGetForUnity",
+    "com.unity.addressables": "2.7.6",
     "com.unity.collab-proxy": "2.11.3",
     "com.unity.feature.development": "1.0.2",
     "com.unity.inputsystem": "1.14.2",
@@ -7,6 +12,7 @@
     "com.unity.timeline": "1.8.9",
     "com.unity.ugui": "2.0.0",
     "com.unity.visualscripting": "1.9.7",
+    "jp.hadashikick.vcontainer": "1.16.9",
     "com.unity.modules.accessibility": "1.0.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
@@ -38,9 +44,7 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0",
-    "jp.hadashikick.vcontainer": "1.16.9",
-    "com.cysharp.unitask": "2.5.10"
+    "com.unity.modules.xr": "1.0.0"
   },
   "scopedRegistries": [
     {
@@ -48,7 +52,8 @@
       "url": "https://package.openupm.com",
       "scopes": [
         "jp.hadashikick.vcontainer",
-        "com.cysharp"
+        "com.cysharp",
+        "org.nuget"
       ]
     }
   ]
