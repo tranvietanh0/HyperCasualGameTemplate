@@ -8,7 +8,9 @@
         "GameFoundationCore.UIModule",
         "GameFoundationCore.Signals",
         "UniT.Logging",
-        "UniTask"
+        "UniTask",
+        "GameFoundationCore.Models",
+        "UITemplate.Scripts"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
