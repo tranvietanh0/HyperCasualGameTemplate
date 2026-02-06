@@ -1,6 +1,8 @@
 ﻿namespace HyperCasualGame.Scripts.Scenes.Loading
 {
     using GameFoundationCore.Scripts.DI.VContainer;
+    using GameFoundationCore.Scripts.UIModule.Utilities;
+    using HyperCasualGame.Scripts.Scenes.Screen;
     using UnityEngine;
     using VContainer;
     using VContainer.Unity;
@@ -9,7 +11,7 @@
     {
         protected override void Configure(IContainerBuilder builder)
         {
-            base.Configure(builder);
+            builder.InitScreenManually<LoadingScreenPresenter>(autoBindData: true);
         }
     }
 }
