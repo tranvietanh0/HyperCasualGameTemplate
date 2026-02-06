@@ -361,6 +361,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1462573729180230631, guid: 09dd0518ff145a14b9584d31127aa04a, type: 3}
+      propertyPath: m_BlockingMask.m_Bits
+      value: 55
+      objectReference: {fileID: 0}
     - target: {fileID: 4144462771194927077, guid: 09dd0518ff145a14b9584d31127aa04a, type: 3}
       propertyPath: m_Name
       value: HyperCasualRootUI
