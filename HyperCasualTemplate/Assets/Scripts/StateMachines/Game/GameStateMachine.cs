@@ -13,10 +13,16 @@
     public class GameStateMachine : StateMachine, IInitializable
     {
         public GameStateMachine(
-            List<IGameState>   listState,
-            ILoggerManager loggerManager,
-            SignalBus      signalBus
-        ) : base(listState.Select(x => x as IState).ToList(), loggerManager, signalBus) { }
+            List<IGameState> listState,
+            ILoggerManager   loggerManager,
+            SignalBus        signalBus
+        ) : base(listState.Select(x => x as IState).ToList(), loggerManager, signalBus)
+        {
+            foreach (var gameState in listState)
+            {
+                if (gameState is IHaveStateMachine haveStateMachine) haveStateMachine.StateMachine = this;
+            }
+        }
 
         public void Initialize()
         {
