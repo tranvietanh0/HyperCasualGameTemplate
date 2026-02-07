@@ -1,7 +1,9 @@
 ﻿namespace HyperCasualGame.Scripts.Scenes.Main
 {
-    public class MainSceneScope
+    using GameFoundationCore.Scripts.DI.VContainer;
+
+    public class MainSceneScope : SceneScope
     {
-        
+
     }
 }

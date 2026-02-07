@@ -4,7 +4,6 @@
 
     public class UserLocalData : ILocalData
     {
-        public int Score { get; set; } = 0;
         public void Init()
         {
 
