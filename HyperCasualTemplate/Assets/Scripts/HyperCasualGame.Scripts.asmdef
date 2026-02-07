@@ -10,7 +10,11 @@
         "UniT.Logging",
         "UniTask",
         "GameFoundationCore.Models",
-        "UITemplate.Scripts"
+        "UITemplate.Scripts",
+        "UniT.Extensions",
+        "Unity.ResourceManager",
+        "GameFoundationCore.AssetLibrary",
+        "Unity.Addressables"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
